@@ -15,3 +15,19 @@ func input() -> String {
     
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
+
+print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
+print("Would you like to play? Yes or No.")
+
+var playCheck = true
+while playCheck {
+    var play = input()
+    
+    if play == "Yes" || play == "yes" {
+        print("Have fun player!")
+        
+        playCheck = false
+    }else {
+        print("Are you sure?")
+    }
+}
