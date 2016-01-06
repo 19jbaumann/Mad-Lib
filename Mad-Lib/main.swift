@@ -16,6 +16,10 @@ func input() -> String {
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
 
+
+
+
+
 print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
 print("Would you like to play? Yes or No.")
 
@@ -29,5 +33,10 @@ while playCheck {
         playCheck = false
     }else {
         print("Are you sure?")
+break
     }
+}
+var gh = input()
+if gh == "No" || gh == "no" {
+    print("ok")
 }
