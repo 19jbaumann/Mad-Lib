@@ -69,7 +69,18 @@ func A_Letter_Camp() {
     
 }
 
-func madlib4() {
+func TheMadMan() {
+    print("name")
+    var name = input()
+    print("scene")
+    var scene = input()
+    print("house")
+    var house = input()
+    print("reason")
+    var reason = input()
+    print(" caused by")
+    var causedby = input()
+    
     
 }
 
