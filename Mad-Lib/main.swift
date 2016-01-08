@@ -47,7 +47,34 @@ func madlib1() {
 }
 
 func spongebobSquarepants() {
+    print("Fruit")
+    let fruit = input()
+    print("Noun")
+    let noun1 = input()
+    print("Your Name")
+    let name = input()
+    print("Adjective")
+    let adjective1 = input()
+    print("Color")
+    let color = input()
+    print("Adjective")
+    let adjective2 = input()
+    print("Adjective")
+    let adjective3 = input()
+    print("Noun")
+    let noun2 = input()
+    print("Verb")
+    let verb1 = input()
+    print("Verb")
+    let verb2 = input()
+    print("Noun")
+    let noun3 = input()
+    print("Verb")
+    let verb3 = input()
+    print("Animal")
+    let animal = input()
     
+    print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(verb3)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(noun2) and \(verb2) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
 }
 
 func madlib3() {
