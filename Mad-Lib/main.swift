@@ -42,7 +42,7 @@ if gh == "No" || gh == "no" {
 }
 
 
-func madlib1() {
+func 49ers() {
 
 }
 
