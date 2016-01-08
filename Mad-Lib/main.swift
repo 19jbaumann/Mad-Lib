@@ -40,3 +40,26 @@ var gh = input()
 if gh == "No" || gh == "no" {
     print(menu)
 }
+
+
+func madlib1() {
+
+}
+
+func spongebobSquarepants() {
+    
+}
+
+func madlib3() {
+    
+}
+
+func madlib4() {
+    
+}
+
+func madlib5() {
+    
+}
+
+
