@@ -61,7 +61,9 @@ func spongebobSquarepants() {
     
 }
 
-func madlib3() {
+func A_Letter_Camp() {
+    print("Welcome to Letter From Camp.")
+    
     
 }
 
