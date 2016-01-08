@@ -63,6 +63,8 @@ func spongebobSquarepants() {
 
 func A_Letter_Camp() {
     print("Welcome to Letter From Camp.")
+    var relative = input()
+    print ("")
     
     
 }
