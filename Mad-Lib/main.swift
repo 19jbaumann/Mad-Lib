@@ -42,8 +42,19 @@ if gh == "No" || gh == "no" {
 }
 
 
-func 49ers() {
-
+func princessBride() {
+    print("first name")
+    var firstname = input()
+    print("last name")
+    var lastName = input()
+    print("past tense verb")
+    var pastTenseVerb = input()
+    print("Family member")
+    var familymember = input()
+    print("verb")
+    var verb = input()
+    
+    print("Hello. My name is \(firstname) \(lastName) You \(pastTenseVerb) my \(familymember). Prepare to \(verb)!")
 }
 
 func spongebobSquarepants() {
