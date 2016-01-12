@@ -61,17 +61,25 @@ func A_Letter_Camp() {
     
 }
 
-func TheMadMan() {
-    print("name")
-    var name = input()
-    print("scene")
-    var scene = input()
-    print("house")
-    var house = input()
-    print("reason")
-    var reason = input()
-    print(" caused by")
-    var causedby = input()
+func TheTruth() {
+    print("item")
+    var item = input()
+    print("creature1")
+    var creature1 = input()
+    print("item2")
+    var item2 = input()
+    print("complement")
+    var complement = input()
+    print("complement2")
+    var complement2 = input()
+    print("trait")
+    var trait = input()
+    print("feeling")
+    var feeling = input()
+    print("feeling2")
+    var feeling2 = input()
+    
+    print(" As the \(item) and the ashes collide the \(creature1) eyes light up and the truth of the creatures \(item2) comes out. the \(creature1) is just \(complement) and \(complement2), is pure and \(trait), not just \(feeling) but its \(feeling2) and pure. not just a creature but a angel that is trapped in its own dispair")
     
     
 }
