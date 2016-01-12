@@ -6,42 +6,6 @@
 //  Copyright © 2016 Coder. All rights reserved.
 //
 
-import Foundation
-
-func input() -> String {
-    let keyboard = NSFileHandle.fileHandleWithStandardInput()
-    let inputData = keyboard.availableData
-    let strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
-    
-    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
-}
-
-var menu = "Please select a Mad-Lib!\n1\tMad-Lib 1\n2\tMad-Lib 2\n3\tMad-Lib 3"
-
-
-
-print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
-print("Would you like to play? Yes or No.")
-
-var playCheck = true
-while playCheck {
-    var play = input()
-    
-    if play == "Yes" || play == "yes" {
-        print(menu)
-        
-        playCheck = false
-    }else {
-        print("Are you sure?")
-break
-    }
-}
-var gh = input()
-if gh == "No" || gh == "no" {
-    print(menu)
-}
-
-
 func princessBride() {
     print("first name")
     var firstname = input()
@@ -97,17 +61,25 @@ func A_Letter_Camp() {
     
 }
 
-func TheMadMan() {
-    print("name")
-    var name = input()
-    print("scene")
-    var scene = input()
-    print("house")
-    var house = input()
-    print("reason")
-    var reason = input()
-    print(" caused by")
-    var causedby = input()
+func TheTruth() {
+    print("item")
+    var item = input()
+    print("creature1")
+    var creature1 = input()
+    print("item2")
+    var item2 = input()
+    print("complement")
+    var complement = input()
+    print("complement2")
+    var complement2 = input()
+    print("trait")
+    var trait = input()
+    print("feeling")
+    var feeling = input()
+    print("feeling2")
+    var feeling2 = input()
+    
+    print(" As the \(item) and the ashes collide the \(creature1) eyes light up and the truth of the creatures \(item2) comes out. the \(creature1) is just \(complement) and \(complement2), is pure and \(trait), not just \(feeling) but its \(feeling2) and pure. not just a creature but a angel that is trapped in its own dispair")
     
     
 }
@@ -124,5 +96,70 @@ func starWars() {
     
     print("The Force is a mystical, \(adjective) power. As Jedi Master Obi-Wan Kenobi once said, The Force is an energy field, created by all living \(pluralNoun) that surrounds us, penetrates us, and binds the \(noun) together. Using the power of the force, a jedi can do many \(adjective1) things.")
 }
+
+import Foundation
+
+func input() -> String {
+    let keyboard = NSFileHandle.fileHandleWithStandardInput()
+    let inputData = keyboard.availableData
+    let strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
+    
+    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
+}
+
+var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Mad Man"
+
+
+
+print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
+print("Would you like to play? Yes or No.")
+
+var playCheck = true
+while playCheck {
+    var play = input()
+    
+    if play == "Yes" || play == "yes" {
+        print(menu)
+        var select = input()
+        if select == "1" {
+            print(princessBride())
+        }
+        if select == "2" {
+            print(spongebobSquarepants())
+        }
+        if select == "3" {
+            print(A_Letter_Camp())
+        }
+        if select == "4" {
+            print(TheMadMan())
+        }
+        
+        playCheck = false
+    }else {
+        print("Are you sure?")
+        break
+    }
+}
+var gh = input()
+if gh == "No" || gh == "no" {
+    print(menu)
+    var select2 = input()
+    if select2 == "1" {
+        print(princessBride())
+    }
+    if select2 == "2" {
+        print(spongebobSquarepants())
+    }
+    if select2 == "3" {
+        print(A_Letter_Camp())
+    }
+    if select2 == "4" {
+        print(TheMadMan())
+    }
+}
+
+
+
+
 
 
