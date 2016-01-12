@@ -139,7 +139,7 @@ func input() -> String {
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
 
-var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Mad Man"
+var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Truth\n5\tStarWars"
 
 
 
@@ -163,7 +163,10 @@ while playCheck {
             print(A_Letter_Camp())
         }
         if select == "4" {
-            print(TheMadMan())
+            print(TheTruth())
+        }
+        if select == "5" {
+            print(starWars())
         }
         
         playCheck = false
@@ -186,7 +189,10 @@ if gh == "No" || gh == "no" {
         print(A_Letter_Camp())
     }
     if select2 == "4" {
-        print(TheMadMan())
+        print(TheTruth())
+    }
+    if select2 == "5" {
+        print(starWars())
     }
 }
 
