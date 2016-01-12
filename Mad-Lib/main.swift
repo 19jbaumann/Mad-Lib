@@ -92,7 +92,7 @@ func A_Letter_Camp() {
     var name = input()
     print("Relative")
     var Relative = input()
-    print()
+    print("")
     
     
 }
