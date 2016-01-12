@@ -133,6 +133,9 @@ while playCheck {
         if select == "4" {
             print(TheTruth())
         }
+        if select == "5" {
+            print(starWars())
+        }
         
         playCheck = false
     }else {
@@ -155,6 +158,9 @@ if gh == "No" || gh == "no" {
     }
     if select2 == "4" {
         print(TheTruth())
+    }
+    if select2 == "5" {
+        print(starWars())
     }
 }
 
