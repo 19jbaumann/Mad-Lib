@@ -6,42 +6,6 @@
 //  Copyright © 2016 Coder. All rights reserved.
 //
 
-import Foundation
-
-func input() -> String {
-    let keyboard = NSFileHandle.fileHandleWithStandardInput()
-    let inputData = keyboard.availableData
-    let strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
-    
-    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
-}
-
-var menu = "Please select a Mad-Lib!\n1\tMad-Lib 1\n2\tMad-Lib 2\n3\tMad-Lib 3"
-
-
-
-print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
-print("Would you like to play? Yes or No.")
-
-var playCheck = true
-while playCheck {
-    var play = input()
-    
-    if play == "Yes" || play == "yes" {
-        print(menu)
-        
-        playCheck = false
-    }else {
-        print("Are you sure?")
-break
-    }
-}
-var gh = input()
-if gh == "No" || gh == "no" {
-    print(menu)
-}
-
-
 func princessBride() {
     print("first name")
     var firstname = input()
@@ -92,7 +56,7 @@ func A_Letter_Camp() {
     var name = input()
     print("Relative")
     var Relative = input()
-    print()
+    print("")
     
     
 }
@@ -123,5 +87,70 @@ func TheTruth() {
 func madlib5() {
     
 }
+
+import Foundation
+
+func input() -> String {
+    let keyboard = NSFileHandle.fileHandleWithStandardInput()
+    let inputData = keyboard.availableData
+    let strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
+    
+    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
+}
+
+var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Mad Man"
+
+
+
+print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
+print("Would you like to play? Yes or No.")
+
+var playCheck = true
+while playCheck {
+    var play = input()
+    
+    if play == "Yes" || play == "yes" {
+        print(menu)
+        var select = input()
+        if select == "1" {
+            print(princessBride())
+        }
+        if select == "2" {
+            print(spongebobSquarepants())
+        }
+        if select == "3" {
+            print(A_Letter_Camp())
+        }
+        if select == "4" {
+            print(TheMadMan())
+        }
+        
+        playCheck = false
+    }else {
+        print("Are you sure?")
+        break
+    }
+}
+var gh = input()
+if gh == "No" || gh == "no" {
+    print(menu)
+    var select2 = input()
+    if select2 == "1" {
+        print(princessBride())
+    }
+    if select2 == "2" {
+        print(spongebobSquarepants())
+    }
+    if select2 == "3" {
+        print(A_Letter_Camp())
+    }
+    if select2 == "4" {
+        print(TheMadMan())
+    }
+}
+
+
+
+
 
 
