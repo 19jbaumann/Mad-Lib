@@ -112,8 +112,17 @@ func TheMadMan() {
     
 }
 
-func madlib5() {
+func starWars() {
+    print("adjective")
+    var adjective = input()
+    print("plural noun")
+    var pluralNoun = input()
+    print("noun")
+    var noun = input()
+    print("adjective")
+    var adjective1 = input()
     
+    print("The Force is a mystical, \(adjective) power. As Jedi Master Obi-Wan Kenobi once said, The Force is an energy field, created by all living \(pluralNoun) that surrounds us, penetrates us, and binds the \(noun) together. Using the power of the force, a jedi can do many \(adjective1) things.")
 }
 
 
