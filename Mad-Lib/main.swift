@@ -93,6 +93,7 @@ func A_Letter_Camp() {
     print("Dear \(name), I am having a(n) \(Adjective) time at camp. The counslour is \(Adjective2) and the food is \(Adjective3). I met \(nameofpersoninroom) and we became \(Adjective4) friends. Unfortunately, \(nameofpersoninroom) is \(Adjective5) and I \(verbendinginED) my \(bodypart) so we couldn't go \(verbEndinginIng) like everybody else. I need more \(nounPlural) and a \(noun) sharpener, so please \(adverb) \(verb) more when you \(verb2) back. Yor \(Relative), \(Relative2)")
 }
 
+
 func TheTruth() {
     print("item")
     var item = input()
