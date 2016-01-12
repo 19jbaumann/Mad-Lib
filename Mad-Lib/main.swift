@@ -86,7 +86,14 @@ func spongebobSquarepants() {
     print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(noun2)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(verb2) and \(noun3) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
 }
 
-func madlib3() {
+func A_Letter_Camp() {
+    print("Welcome to Letter From Camp.")
+    print("name")
+    var name = input()
+    print("Relative")
+    var Relative = input()
+    print()
+    
     
 }
 
