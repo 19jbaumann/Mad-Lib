@@ -80,12 +80,10 @@ func spongebobSquarepants() {
     let verb2 = input()
     print("Noun")
     let noun3 = input()
-    print("Verb")
-    let verb3 = input()
     print("Animal")
     let animal = input()
     
-    print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(verb3)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(noun2) and \(verb2) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
+    print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(noun2)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(verb2) and \(noun3) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
 }
 
 func A_Letter_Camp() {
