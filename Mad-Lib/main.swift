@@ -82,10 +82,15 @@ func A_Letter_Camp() {
     var adverb = input()
     print("adverb")
     var verb = input()
-    print(verb)
+    print("verb")
+    var verb2 = input()
+    print ("verb")
+    var Relative2 = input()
+    print("Relative")
+    var personinroom = input()
+    print("Person in room")
     
-    
-    
+    print("Dear \(name),  ")
 }
 
 func TheTruth() {
