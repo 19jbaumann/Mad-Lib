@@ -160,7 +160,7 @@ func TheTruth() {
     
     print(" As the \(item) and the ashes collide the \(creature1) eyes light up and the truth of the creatures \(item2) comes out. the \(creature1) isnt just \(complement) and \(complement2), is pure and \(trait), not just \(feeling) but its \(feeling2) and pure. not just a creature but an angel that is trapped in its own dispair")
     
-    
+    menu1()
 }
 
 //Fifth madlib
