@@ -75,9 +75,9 @@ func A_Letter_Camp() {
     print("Name Of Person In Room")
     var nameOfPersonInRoom = input()
     print("Adjective5")
-    var Adjective5 = input()
+    var adjective5 = input()
     print("verb ending in ED")
-    var verbendingInED = input()
+    var verbEndingInED = input()
     print("Body part")
     var bodyPart = input()
     print("verb ending in ING")
@@ -98,7 +98,7 @@ func A_Letter_Camp() {
     var personInRoom = input()
    
     
-    print("Dear \(name), I am having a(n) \(adjective) time at camp. The counslour is \(adjective2) and the food is \(Adjective3). I met \(nameofpersoninroom) and we became \(adjective4) friends. Unfortunately, \(nameOfPersonInRoom) is \(adjective5) and I \(verBendingInED) my \(bodyPart) so we couldn't go \(verbEndinginIng) like everybody else. I need more \(nounPlural) and a \(noun) sharpener, so please \(adverb) \(verb) more when you \(verb2) back. Yor \(relative), \(relative2)")
+    print("Dear \(name), I am having a(n) \(adjective) time at camp. The counslour is \(adjective2) and the food is \(adjective3). I met \(nameOfPersonInRoom) and we became \(adjective4) friends. Unfortunately, \(nameOfPersonInRoom) is \(adjective5) and I \(verbEndingInED) my \(bodyPart) so we couldn't go \(verbEndingInIng) like everybody else. I need more \(nounPlural) and a \(noun) sharpener, so please \(adverb) \(verb) more when you \(verb2) back. Yor \(relative), \(relative2)")
 }
 
 //Fourth Madlib
