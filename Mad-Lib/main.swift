@@ -6,6 +6,9 @@
 //  Copyright © 2016 Coder. All rights reserved.
 //
 
+
+//First mad lib
+
 func princessBride() {
     print("first name")
     var firstname = input()
@@ -20,6 +23,8 @@ func princessBride() {
     
     print("Hello. My name is \(firstname) \(lastName) You \(pastTenseVerb) my \(familymember). Prepare to \(verb)!")
 }
+
+//Second Madlib
 
 func spongebobSquarepants() {
     print("Fruit")
@@ -49,6 +54,9 @@ func spongebobSquarepants() {
     
     print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(noun2)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(verb2) and \(noun3) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
 }
+
+//Third Madlib
+
 
 func A_Letter_Camp() {
     print("Welcome to Letter From Camp.")
@@ -93,6 +101,7 @@ func A_Letter_Camp() {
     print("Dear \(name), I am having a(n) \(adjective) time at camp. The counslour is \(adjective2) and the food is \(Adjective3). I met \(nameofpersoninroom) and we became \(adjective4) friends. Unfortunately, \(nameOfPersonInRoom) is \(adjective5) and I \(verBendingInED) my \(bodyPart) so we couldn't go \(verbEndinginIng) like everybody else. I need more \(nounPlural) and a \(noun) sharpener, so please \(adverb) \(verb) more when you \(verb2) back. Yor \(relative), \(relative2)")
 }
 
+//Fourth Madlib
 
 func TheTruth() {
     print("item")
@@ -117,6 +126,8 @@ func TheTruth() {
     
 }
 
+//Fifth madlib
+
 func starWars() {
     print("adjective")
     var adjective = input()
@@ -130,6 +141,8 @@ func starWars() {
     print("The Force is a mystical, \(adjective) power. As Jedi Master Obi-Wan Kenobi once said, The Force is an energy field, created by all living \(pluralNoun) that surrounds us, penetrates us, and binds the \(noun) together. Using the power of the force, a jedi can do many \(adjective1) things.")
 }
 
+//This allowes you to use the Input() command
+
 import Foundation
 
 func input() -> String {
@@ -140,10 +153,12 @@ func input() -> String {
     return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
 }
 
+
+//This is the menu, telling you how to play
 var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Truth\n5\tStarWars"
 
 
-
+//This allowes you to select which madlib to play
 print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
 print("Would you like to play? Yes or No.")
 
