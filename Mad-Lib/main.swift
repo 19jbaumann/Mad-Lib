@@ -6,7 +6,7 @@
 //  Copyright © 2016 Coder. All rights reserved.
 //
 
-//This allowes you to use the Input() command
+//This allowes you to use the Input() command (Jaschon)
 
 import Foundation
 
@@ -21,14 +21,14 @@ func input() -> String {
 
 
 
-//This is the menu, telling you how to play
+//This is the menu, telling you how to play (Jaschon)
 var menu = "Please select the number of a Mad-Lib!\n1\tPrincess Bride\n2\tSpongebob\n3\tA Letter from Camp\n4\tThe Truth\n5\tStarWars"
 
 
 
 
 
-//First mad lib
+//First mad lib (Dominic)
 
 func princessBride() {
     print("first name")
@@ -48,7 +48,7 @@ func princessBride() {
     
     
     
-    //This calls the menu back, so you can play again! It is in every madlib!
+    //This calls the menu back, so you can play again! It is in every madlib! (Jaschon)
     menu1()
     
     
@@ -58,7 +58,7 @@ func princessBride() {
 }
 
 
-//Second Madlib
+//Second Madlib (Jaschon)
 
 func spongebobSquarepants() {
     print("Fruit")
@@ -91,7 +91,7 @@ func spongebobSquarepants() {
 menu1()
 }
 
-//Third Madlib
+//Third Madlib (Ryan)
 
 
 func A_Letter_Camp() {
@@ -138,7 +138,7 @@ func A_Letter_Camp() {
 menu1()
 }
 
-//Fourth Madlib
+//Fourth Madlib (Jerico)
 
 func TheTruth() {
     print("item")
@@ -163,7 +163,7 @@ func TheTruth() {
     menu1()
 }
 
-//Fifth madlib
+//Fifth madlib (Dominic)
 
 func starWars() {
     print("adjective")
@@ -181,7 +181,7 @@ func starWars() {
 menu1()
 }
 
-//This allowes you to select which madlib to play
+//This allowes you to select which madlib to play (Everyone!)
 
 func menu1() {
 print("\n\n")
