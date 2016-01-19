@@ -86,7 +86,7 @@ func spongebobSquarepants() {
     print("Animal")
     let animal = input()
     
-    print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? Kids: \(name) Squarepants! Captain: \(adjective1) and \(color) and \(adjective2) is he! Kids: \(name) Squarepants! Captain: If \(adjective3) be somthing you \(noun2)... Kids: \(name) Squarepants! Captain: Then \(verb1) on the \(verb2) and \(noun3) like a \(animal). Kids: \(name) Squarepants!Captain: Ready? Everyone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! Captain: \(name)... Squarepants! ahhhahhhahahhaha!")
+    print("Captain: Ohhhhh... who lives in a \(fruit) under the \(noun1)? \nKids: \(name) Squarepants! \nCaptain: \(adjective1) and \(color) and \(adjective2) is he! \nKids: \(name) Squarepants! \nCaptain: If \(adjective3) be somthing you \(noun2)... \nKids: \(name) Squarepants! \nCaptain: Then \(verb1) on the \(verb2) and \(noun3) like a \(animal). \nKids: \(name) Squarepants!\nCaptain: Ready? \nEveryone: \(name) Squarepants! \(name) Squarepants! \(name) Squarepants! \nCaptain: \(name)... Squarepants! ahhhahhhahahhaha!")
 
 menu1()
 }
@@ -184,6 +184,7 @@ menu1()
 //This allowes you to select which madlib to play
 
 func menu1() {
+print("\n\n")
 print("( ͡° ͜ʖ ͡°) Welcome to Mad Lib ( ͡° ͜ʖ ͡°)")
 print("Would you like to play? Yes or No.")
 
